@@ -131,6 +131,7 @@ Debug/
 __vm/
 .vs/
 vc-fileutils.settings
+Build/
 
 #VScode
 .vscode
