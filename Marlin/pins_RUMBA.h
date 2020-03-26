@@ -72,13 +72,17 @@
 #define Z_DIR_PIN          56
 #define Z_ENABLE_PIN       62
 
+#define Z2_STEP_PIN        26
+#define Z2_DIR_PIN         25
+#define Z2_ENABLE_PIN      27
+
 #define E0_STEP_PIN        23
 #define E0_DIR_PIN         22
 #define E0_ENABLE_PIN      24
 
-#define E1_STEP_PIN        26
-#define E1_DIR_PIN         25
-#define E1_ENABLE_PIN      27
+// #define Z2_STEP_PIN        26
+// #define Z2_DIR_PIN         25
+// #define Z2_ENABLE_PIN      27
 
 #define E2_STEP_PIN        29
 #define E2_DIR_PIN         28
@@ -121,13 +125,13 @@
 #define HEATER_0_PIN        2
 #define HEATER_1_PIN        3
 #define HEATER_2_PIN        6
-#define HEATER_3_PIN        8
+//#define HEATER_3_PIN        8
 #define HEATER_BED_PIN      9
 
 #ifndef FAN_PIN
   #define FAN_PIN           7
 #endif
-#define FAN1_PIN            8
+//#define FAN1_PIN            8
 
 //
 // Misc. Functions
@@ -136,7 +140,7 @@
 #define LED_PIN            13
 #define PS_ON_PIN          45
 #define KILL_PIN           46
-#define CASE_LIGHT_PIN     45
+#define CASE_LIGHT_PIN     8
 
 //
 // M3/M4/M5 - Spindle/Laser Control
