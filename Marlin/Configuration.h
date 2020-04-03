@@ -727,7 +727,7 @@
  */
 #define BLTOUCH
 
-**
+/**
  * Enable one or more of the following if probing seems unreliable.
  * Heaters and/or fans can be disabled during probing to minimize electrical
  * noise. A delay can also be added to allow noise and vibration to settle.
