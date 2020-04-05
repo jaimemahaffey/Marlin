@@ -93,6 +93,13 @@
   #define E2_ENABLE_PIN                       39
 #endif
 
+#define X_SERIAL_TX_PIN  64
+#define X_SERIAL_RX_PIN  4
+#define Y_SERIAL_TX_PIN  14
+#define Y_SERIAL_RX_PIN  15
+#define Z_SERIAL_TX_PIN  30
+#define Z_SERIAL_RX_PIN  31
+
 //
 // Temperature Sensors
 //
@@ -137,14 +144,14 @@
 #define HEATER_0_PIN                           2
 #define HEATER_1_PIN                           3
 #define HEATER_2_PIN                           6
-#define HEATER_3_PIN                           8
+//#define HEATER_3_PIN        8
 #define HEATER_BED_PIN                         9
 
 #ifndef FAN_PIN
   #define FAN_PIN                              7
 #endif
 #ifndef FAN1_PIN
-  #define FAN1_PIN                             8
+  //#define FAN1_PIN                             8
 #endif
 
 //
@@ -153,20 +160,7 @@
 #define LED_PIN                               13
 #define PS_ON_PIN                             45
 #define KILL_PIN                              46
-#define CASE_LIGHT_PIN                        45
-
-//
-// M3/M4/M5 - Spindle/Laser Control
-//
-#ifndef SPINDLE_LASER_PWM_PIN
-  #define SPINDLE_LASER_PWM_PIN                4  // Hardware PWM. Pin 4 interrupts OC0* and OC1* always in use?
-#endif
-#ifndef SPINDLE_LASER_ENA_PIN
-  #define SPINDLE_LASER_ENA_PIN               14  // Pullup!
-#endif
-#ifndef SPINDLE_DIR_PIN
-  #define SPINDLE_DIR_PIN                     15
-#endif
+#define CASE_LIGHT_PIN                        8
 
 //
 // LCD / Controller
@@ -229,3 +223,4 @@
   #define BTN_EN2                             12
   #define BTN_ENC                             43
 #endif
+
